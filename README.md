@@ -47,6 +47,7 @@ Areas of exploration:
 
 | Project                                                                         | Focus                                                                 |
 | ------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [hydradb-zisk-receipts](https://github.com/amiabix/hydradb-zisk-receipts)       | Private agent context receipts using HydraDB retrieval and ZisK verification |
 | [OP-ZisK](https://github.com/amiabix/OP-ZisK)                                   | OP Stack proving experiments with ZisK                                |
 | [op-zisk-prover-Dashboard](https://github.com/amiabix/op-zisk-prover-Dashboard) | Observability for prover jobs, execution state, and proving workflows |
 | [ZisK-BPF](https://github.com/amiabix/ZisK-BPF)                                 | Experiments around verifying Solana BPF execution in a zkVM context   |
