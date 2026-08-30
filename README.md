@@ -1,90 +1,17 @@
-# Ayush Bhadauria
+# Abix
 
-Developer infrastructure for distributed systems.
+I like computers most when they have something to prove.
 
-Work across proving systems, zkVMs, rollups, and privacy-preserving compute, with a focus on turning early protocol infrastructure into tools developers can understand, test, and integrate.
+I build around zkVMs, rollups, privacy, and distributed systems. Most things here start with a fairly simple question: can this execution be proven, can this system be observed, or can something private be verified without exposing it?
 
-The main operating area is the space between protocol engineering and developer adoption: SDK validation, reference implementations, technical documentation, onboarding flows, integration feedback, and ecosystem coordination.
+Then I write enough code to find out.
 
----
+Current rabbit holes include proving OP Stack execution, running Solana BPF inside a zkVM, making long-running prover jobs easier to inspect, implementing cryptographic primitives and precompiles, and producing verifiable receipts for private agent context.
 
-## Focus
+Some projects become useful tools. Some remain rough experiments. Some are evidence that the original question was much harder than it looked.
 
-Making verifiable execution usable as developer infrastructure.
+I care about software that is verifiable, private when it needs to be, and usable without pretending the machinery underneath does not exist.
 
-Core areas of work include:
+Mostly building, breaking, and documenting things. Occasionally in that order.
 
-* developer experience for zkVMs and proving systems
-* SDK and API design for cryptographic infrastructure
-* reference implementations and integration examples
-* observability for proving workflows
-* documentation systems for technical protocols
-* feedback loops between external builders and engineering teams
-* ecosystem strategy for early infrastructure adoption
-
-The broader question behind the work:
-
-**How can complex cryptographic systems become usable without forcing every developer to understand the entire proving stack?**
-
----
-
-## Current Direction
-
-Current work is centered on zkVM infrastructure, rollup proving workflows, and verifiable execution.
-
-Areas of exploration:
-
-* proof generation as a developer workflow
-* execution receipts as application infrastructure
-* rollup proving pipelines that are observable and debuggable
-* privacy-preserving context and policy verification
-* developer-facing abstractions for distributed proving
-* agent and application workflows that require verifiable computation
-
----
-
-## Selected Work
-
-| Project                                                                         | Focus                                                                 |
-| ------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [hydradb-zisk-receipts](https://github.com/amiabix/hydradb-zisk-receipts)       | Private agent context receipts using HydraDB retrieval and ZisK verification |
-| [OP-ZisK](https://github.com/amiabix/OP-ZisK)                                   | OP Stack proving experiments with ZisK                                |
-| [op-zisk-prover-Dashboard](https://github.com/amiabix/op-zisk-prover-Dashboard) | Observability for prover jobs, execution state, and proving workflows |
-| [ZisK-BPF](https://github.com/amiabix/ZisK-BPF)                                 | Experiments around verifying Solana BPF execution in a zkVM context   |
-| [Poseidon_zisk](https://github.com/amiabix/Poseidon_zisk)                       | Rust implementation work around Poseidon for ZisK experiments         |
-| [Miden-Zcash](https://github.com/amiabix/Miden-Zcash)                           | Exploratory privacy-flow experiments using ZK tooling                 |
-| [ZisK-Docs](https://github.com/amiabix/ZisK-Docs)                               | Draft documentation and onboarding resources for ZisK developers      |
-
-These projects are mostly experiments, working references, and technical notes used to understand where developer tooling, documentation, and workflows need to improve.
-
----
-
-## Background
-
-**ZisK — Developer Experience / Growth Engineer**
-Developer workflows, SDK validation, reference implementations, documentation, proving experiments, and ecosystem integrations around zkVM infrastructure.
-
-**Vana — Product & Ecosystem Strategy**
-Decentralized AI, DataDAOs, data ownership, builder programs, product feedback, and ecosystem development around data economy infrastructure.
-
-**Polygon Labs — Growth & Strategy, Developer Ecosystem**
-Developer ecosystem work across Polygon PoS, zkEVM, CDK, Plonky3, Nightfall, ZK ecosystem initiatives, technical community programs, and infrastructure adoption.
-
-**Onecdot — Co-Founder**
-NFT API infrastructure focused on making Web3 application development easier to integrate and scale.
-
----
-
-## Areas of Interest
-
-**Systems:** zkVMs, rollups, Ethereum infrastructure, proving systems, privacy-preserving compute
-**Developer infrastructure:** SDKs, APIs, documentation, reference implementations, dashboards, onboarding flows
-**Research direction:** verifiable execution, private context, agent receipts, distributed proving, cryptographic developer tools
-
----
-
-## Links
-
-* X: [@0xAbix](https://x.com/0xAbix)
-* LinkedIn: [Ayush Bhadauria](https://www.linkedin.com/in/amiabix)
-* GitHub: [amiabix](https://github.com/amiabix)
+[@0xAbix](https://x.com/0xAbix) · [LinkedIn](https://www.linkedin.com/in/amiabix)
